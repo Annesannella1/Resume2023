@@ -61,10 +61,21 @@ header article h1 {
   line-height: 1em;
 }
 
-header article h4 {
+header article h2 {
   font-size: 1rem;
 }
 
+header .profile-image {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
 .btn {
   padding: 1rem 2rem;
   display: inline-block;
