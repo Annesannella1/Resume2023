@@ -65,17 +65,7 @@ header article h2 {
   font-size: 1rem;
 }
 
-header .profile-image {
-  margin-top: 50px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 3px solid black;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
-}
+
 .btn {
   padding: 1rem 2rem;
   display: inline-block;
@@ -88,6 +78,19 @@ header .profile-image:hover {
   color: white;
   border: 1px solid #dfdfdf;
 }
+.svg-container {
+ /* margin-top: 50px; */
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+.svg-container:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
 .btn--ghost:hover {
   background: #e9e0cd;
   color: black;
@@ -212,10 +215,22 @@ header article h1 {
 }
 
 
-header article h4 {
+header article h3 {
   font-size: 5rem;
 }
 
+    .svg-container {
+ /* margin-top: 50px; */
+    margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+.svg-container:hover {
+  transform: scale(1.2) rotate(360deg);
+}
 .btn {
   padding: 1rem 2rem;
   display: inline-block;
