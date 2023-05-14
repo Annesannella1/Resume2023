@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+#open_sans {
+  font-family: 'Open Sans';
+  /* font-weight: 700; */
+}
+
+#merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "acta-display";
+  font-weight: 300;
+/*  background: #DCC7BE; */ 
+  background: #e9e0c9;
+  
+}
+
+html, body {
+  font-size: 45%;
+  
+ /* font-size: 62.5%; */
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+  font-family: "acta-display";
+  font-weight: 300;
+}
+
+.flex, header, .section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100vw;
+  min-height: 400px;
+  height: 100vh;
+ /* background: #DCC7BE;*/
+  background: #e9e0cd;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  text-align: left;
+}
+header article {
+  padding-left: 8.33333%;
+  padding-right: 50%;
+  width: 41.66667%;
+  float: left;
+  text-align: left;
+}
+header article h1 {
+ /* font-size: 9rem; */
+  font-size: 5rem;
+  margin: 0 0 2.5rem;
+  line-height: 1em;
+}
+
+header article h4 {
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 2rem;
+}
+.btn--ghost {
+  background: transparent;
+  color: white;
+  border: 1px solid #dfdfdf;
+}
+.btn--ghost:hover {
+  background: #e9e0cd;
+  color: black;
+}
+
+.section {
+  width: 100%;
+  /* max-width: 500px; to see triggers*/
+  min-height: 400px;
+  height: 100vh;
+  color: rgba(0, 0, 0, 0.2);
+  padding-left: 16.66667%;
+  padding-right: 16.66667%;
+  box-sizing: border-box;
+  position: relative;
+  
+
+}
+
+
+.section:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  font-size: 10.5rem;
+  color: rgba(255, 255, 255, 0.25);
+  
+
+}
+.section:nth-child(1) {
+ /* background: #968371; */
+  background: #e9e0cd;
+   
+}
+.section:nth-child(1):before {
+  content: "Experience";
+}
+.section:nth-child(2) {
+/*  background: #145c9e; */
+  background: #e9e0cd;
+  
+}
+.section:nth-child(2):before {
+  content: "Skills";
+}
+.section:nth-child(3) {
+ /* background: #084f6c; */
+  background: #e9e0cd;
+}
+.section:nth-child(3):before {
+  content: "Education";
+}
+.section:nth-child(4) {
+ /* background: #1f271b; */
+  background: #e9e0cd;
+}
+.section:nth-child(4):before {
+  content: "Contact";
+}
+.section__left {
+  width: 50%;
+  float: left;
+}
+.section__right {
+  width: 40%;
+  float: left;
+}
+.section article {
+  text-align: left;
+}
+.section article h3 {
+  font-size: 2.1rem;
+}
+.section article h2 {
+  font-size: .5rem;
+  margin-bottom: 2rem;
+}
+
+
+@media (min-width: 1200px) {
+  
+  html, body {
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+  font-family: "acta-display";
+  font-weight: 300;
+}
+
+.flex, header, .section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100vw;
+  min-height: 400px;
+  height: 100vh;
+  background: #e9e0c9;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  text-align: left;
+}
+header article {
+  padding-left: 8.33333%;
+  padding-right: 50%;
+  width: 41.66667%;
+  float: left;
+  text-align: left;
+}
+header article h1 {
+  font-size: 9rem;
+  margin: 0 0 2.5rem;
+  line-height: 1em;
+}
+
+
+header article h4 {
+  font-size: 5rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 4rem;
+}
+.btn--ghost {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #dfdfdf;
+}
+.btn--ghost:hover {
+  background: white;
+  color: black;
+}
+
+.section {
+  width: 100%;
+  /* max-width: 500px; to see triggers*/
+  min-height: 400px;
+  height: 100vh;
+  color: rgba(0, 0, 0, 0.2);
+  padding-left: 16.66667%;
+  padding-right: 16.66667%;
+  box-sizing: border-box;
+  position: relative;
+  
+
+}
+.section:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  font-size: 25.5rem;
+  color: rgba(210, 160, 160, 0.25);
+  
+
+}
+
+.section:nth-child(1) {
+  background: #e9e0cd; 
+}
+.section:nth-child(1):before {
+  content: "Experience";
+}
+.section:nth-child(2) {
+   background: #e9e0cd;
+  
+}
+.section:nth-child(2):before {
+  content: "Skills";
+}
+.section:nth-child(3) {
+   background: #e9e0cd;
+}
+.section:nth-child(3):before {
+  content: "Education";
+}
+.section:nth-child(4) {
+   background: #e9e0cd;
+}
+.section:nth-child(4):before {
+  content: "Contact";
+}
+.section__left {
+  width: 65%;
+  float: left;
+}
+.section__right {
+  width: 65%;
+  float: left;
+}
+.section article {
+  text-align: left;
+}
+.section article h3 {
+  font-size: 5.1rem;
+}
+.section article h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+ 
+}
