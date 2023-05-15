@@ -42,7 +42,7 @@ header {
   min-height: 400px;
   height: 100vh;
   background: #bb6569;
-  color: rgba(0, 0, 0, 0.2);
+  color: black;
   font-weight: bold;
   text-align: left;
 }
@@ -190,12 +190,12 @@ header article h3 {
 .section article h1 {
   font-size: 3.5rem;
 }
-.section article ul.Duties {
+.section article ul {
   padding: 0;
   text-align: left;
 }
 
-.section article ul.Duties li {
+.section article ul li {
   border-radius: 6px;
   display: block;
   background: #bb6569;
@@ -366,12 +366,12 @@ header .svg-container:hover {
   font-size: 10rem; 
   
 }
-.section article ul.Duties {
+.section article ul {
   padding: 0;
   text-align: left;
 }
 
-.section article ul.Duties li {
+.section article ul li {
   border-radius: 6px;
   display: block;
   background: #bb6569;
