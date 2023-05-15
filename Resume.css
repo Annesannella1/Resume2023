@@ -113,7 +113,7 @@ header article h3 {
   /* max-width: 500px; to see triggers and text color*/
   min-height: 400px;
   height: 100vh;
-  color: rgba(0, 0, 0, 0.2);
+  color: black;
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
@@ -180,7 +180,7 @@ header article h3 {
   text-align: left;
 }
 .section article h3 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .section article h2 {
   font-size: 1.5rem;
@@ -188,7 +188,7 @@ header article h3 {
 }
 
 .section article h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 .section article ul {
   padding: 0;
@@ -196,7 +196,7 @@ header article h3 {
 }
 
 .section article ul li {
-  border-radius: 6px;
+  border-radius: 2px;
   display: block;
   background: #bb6569;
   color: black;
