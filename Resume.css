@@ -71,7 +71,7 @@ header article h3 {
   margin: 0 0 2.5rem;
   line-height: 1em; 
 
-.svg-container {
+header .svg-container {
  /* margin-top: 50px; */
   margin: auto;
   width: 200px;
@@ -81,7 +81,7 @@ header article h3 {
   transition: all .5s;
 }
 
-.svg-container:hover {
+header .svg-container:hover {
   transform: scale(1.2) rotate(360deg);
 }
 
