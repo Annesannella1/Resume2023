@@ -61,14 +61,19 @@ header article h1 {
 }
 
 header article h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0 0 2.5rem;
   line-height: 1em;
 }
 
+header article h3 {
+  font-size: 1rem;
+  margin: 0 0 2.5rem;
+  line-height: 1em; 
+
 .svg-container {
  /* margin-top: 50px; */
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 90px;
@@ -177,14 +182,14 @@ header article h2 {
   text-align: left;
 }
 .section article h3 {
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 .section article h2 {
   font-size: 1.5rem;
  /* margin-bottom: 2rem; */
 }
 .section article h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 
 @media (min-width: 1200px) {
   
@@ -227,19 +232,19 @@ header article h1 {
 }
   
 header article h2 {
-  font-size: 5rem;
+  font-size: 8rem;
   }
   
 header article h3 {
-  font-size: 3rem;
+  font-size: 7rem;
 }
 
 .svg-container {
  /* margin-top: 50px; */
-  margin-top: 200px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 200px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  margin-right: 50%;
+  margin-left: 50%;
   background-color: white;
   width: 400px;
   height: 400px;
