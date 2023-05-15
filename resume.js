@@ -16,7 +16,7 @@ $(function() {
     tl.add("start") 
       .fromTo(title, 0.4, { y: '40px', opacity: 0 }, { y: 0, opacity: 1, ease: Power2.EaseInOut }, "start")
       .fromTo(text, 0.4, { y: '60px', opacity: 0 }, { y: 0, opacity: 1, ease: Power2.EaseInOut }, "start")
-      .fromTo(bullets, 0.4, { y: '65px', opacity: 0 }, { y: 0, opacity: 1, ease: Power2.EaseInOut }, "start")
+      .fromTo(bullets, 0.4, { y: '60px', opacity: 0 }, { y: 0, opacity: 1, ease: Power2.EaseInOut }, "start")
       .fromTo(btn, 0.4, { y: '100px', opacity: 0 }, { y: 0, opacity: 1, ease: Power2.EaseInOut }, "start")
     
     
