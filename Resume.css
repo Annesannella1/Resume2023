@@ -62,7 +62,7 @@ header article h1 {
 }
 
 header article h2 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 
@@ -101,7 +101,7 @@ header article h2 {
   /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.1);
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
@@ -213,6 +213,10 @@ header article h1 {
   margin: 0 0 2.5rem;
   line-height: 1em;
 }
+  
+header article h2 {
+  font-size: 7rem;
+  
 
 
 header article h3 {
@@ -276,26 +280,26 @@ header article h3 {
 }
 
 .section:nth-child(1) {
-  background: #384c3b; 
+  background: #bb6569; 
 }
 .section:nth-child(1):before {
   content: "Experience";
 }
 .section:nth-child(2) {
-   background: #384c3b;
+   background: #bb6569;
   
 }
 .section:nth-child(2):before {
   content: "Skills";
 }
 .section:nth-child(3) {
-   background: #384c3b;
+   background: #bb6569;
 }
 .section:nth-child(3):before {
   content: "Education";
 }
 .section:nth-child(4) {
-   background: #384c3b;
+   background: #bb6569;
 }
 .section:nth-child(4):before
   content: "Contact";
