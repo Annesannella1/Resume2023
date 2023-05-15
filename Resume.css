@@ -72,8 +72,7 @@ header article h3 {
   line-height: 1em; 
 
 header .svg-container {
- /* margin-top: 50px; */
-  margin: auto;
+  margin-top: 50px; 
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -189,7 +188,7 @@ header .svg-container:hover {
   font-size: 3.5rem;
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 720px) {
   
   html, body {
   font-size: 62.5%;
@@ -237,7 +236,7 @@ header article h3 {
   font-size: 7rem;
 }
 
-.svg-container {
+header .svg-container {
  /* margin-top: 50px; */
   margin-top: 10%;
   margin-bottom: 50%;
@@ -249,7 +248,7 @@ header article h3 {
   border: 3px solid black;
   transition: all .5s;
 }
-.svg-container:hover {
+header .svg-container:hover {
   transform: scale(1.2) rotate(360deg);
 }
 
