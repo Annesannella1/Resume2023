@@ -200,13 +200,10 @@ header article h3 {
   display: block;
   background: #bb6569;
   color: black;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 5px 10px;
   margin: 2px;
   
-}
-.section article .Duties li:nth-child(odd) {
-  background: biege;
 }
 
 @media screen and (min-width: 720px) {
@@ -299,7 +296,8 @@ header .svg-container:hover {
   /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
-  color: rgba(0, 0, 0, 0.2);
+  color: black;
+  /*color: rgba(0, 0, 0, 0.2);*/
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
@@ -382,9 +380,6 @@ header .svg-container:hover {
   padding: 5px 10px;
   margin: 2px;
   
-}
-.section article .Duties li:nth-child(odd) {
-  background: beige;
 }
 
 }
