@@ -62,22 +62,23 @@ header article h1 {
 }
 
 header article h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
-
-.btn {
+.btn 
   padding: 1rem 2rem;
   display: inline-block;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   font-size: 2rem;
 }
+
 .btn--ghost {
   background: transparent;
   color: white;
   border: 1px solid #dfdfdf;
 }
+
 .svg-container {
  /* margin-top: 50px; */
   margin: auto;
@@ -101,7 +102,7 @@ header article h2 {
   /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
-  color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.1);
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
@@ -120,7 +121,7 @@ header article h2 {
   transform: translateY(-50%);
   content: "";
   font-size: 10.5rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(210, 160, 160, 0.25);
   
 
 }
