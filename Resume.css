@@ -15,7 +15,7 @@ body {
   font-family: "acta-display";
   font-weight: 300;
 /*  background: #DCC7BE; */ 
-  background: #e9e0c9;
+  background: #bb6569;
   
 }
 
@@ -42,7 +42,7 @@ header {
   min-height: 400px;
   height: 100vh;
  /* background: #DCC7BE;*/
-  background: #e9e0cd;
+  background: #bb6569;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-align: left;
@@ -92,7 +92,7 @@ header article h2 {
 }
 
 .btn--ghost:hover {
-  background: #e9e0cd;
+  background: #bb6569;
   color: black;
 }
 
@@ -126,7 +126,7 @@ header article h2 {
 }
 .section:nth-child(1) {
  /* background: #968371; */
-  background: #e9e0cd;
+  background: #bb6569;
    
 }
 .section:nth-child(1):before {
@@ -134,7 +134,7 @@ header article h2 {
 }
 .section:nth-child(2) {
 /*  background: #145c9e; */
-  background: #e9e0cd;
+  background: #bb6569;
   
 }
 .section:nth-child(2):before {
@@ -142,14 +142,14 @@ header article h2 {
 }
 .section:nth-child(3) {
  /* background: #084f6c; */
-  background: #e9e0cd;
+  background: #bb6569;
 }
 .section:nth-child(3):before {
   content: "Education";
 }
 .section:nth-child(4) {
  /* background: #1f271b; */
-  background: #e9e0cd;
+  background: #bb6569;
 }
 .section:nth-child(4):before {
   content: "Contact";
@@ -276,28 +276,28 @@ header article h3 {
 }
 
 .section:nth-child(1) {
-  background: #e9e0cd; 
+  background: #384c3b; 
 }
 .section:nth-child(1):before {
   content: "Experience";
 }
 .section:nth-child(2) {
-   background: #e9e0cd;
+   background: #384c3b;
   
 }
 .section:nth-child(2):before {
   content: "Skills";
 }
 .section:nth-child(3) {
-   background: #e9e0cd;
+   background: #384c3b;
 }
 .section:nth-child(3):before {
   content: "Education";
 }
 .section:nth-child(4) {
-   background: #e9e0cd;
+   background: #384c3b;
 }
-.section:nth-child(4):before {
+.section:nth-child(4):before
   content: "Contact";
 }
 .section__left {
