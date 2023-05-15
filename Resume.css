@@ -199,7 +199,7 @@ header article h3 {
 }
 .section article ul.Duties {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .section article ul.Duties li {
@@ -207,9 +207,10 @@ header article h3 {
   display: inline-block;
   background: burlywood;
   color: black;
+  font-size: 2rem;
   padding: 5px 10px;
   margin: 2px;
-  font-size: 2rem;
+  
 }
 
 
@@ -374,7 +375,7 @@ header .svg-container:hover {
 }
 .section article ul.Duties {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .section article ul.duties li {
@@ -382,8 +383,9 @@ header .svg-container:hover {
   display: inline-block;
   background: burlywood;
   color: black;
+  font-size: 5rem;
   padding: 5px 10px;
   margin: 2px;
-  font-size: 5rem;
+  
 }
 }
