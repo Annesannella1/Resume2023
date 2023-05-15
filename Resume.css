@@ -41,7 +41,6 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
- /* background: #DCC7BE;*/
   background: #bb6569;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
@@ -63,7 +62,24 @@ header article h1 {
 
 header article h2 {
   font-size: 3rem;
+  margin: 0, 0, 2.5rem;
+  line-height: 1em;
 }
+
+.svg-container {
+ /* margin-top: 50px; */
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+
+.svg-container:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
 
 .btn 
   padding: 1rem 2rem;
@@ -79,23 +95,13 @@ header article h2 {
   border: 1px solid #dfdfdf;
 }
 
-.svg-container {
- /* margin-top: 50px; */
-  margin: auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 3px solid black;
-  transition: all .5s;
-}
-.svg-container:hover {
-  transform: scale(1.2) rotate(360deg);
-}
 
 .btn--ghost:hover {
   background: #bb6569;
   color: black;
 }
+
+
 
 .section {
   width: 100%;
