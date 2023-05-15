@@ -209,6 +209,7 @@ header article h3 {
   color: black;
   padding: 5px 10px;
   margin: 2px;
+  font-size: 2rem;
 }
 
 
@@ -383,5 +384,6 @@ header .svg-container:hover {
   color: black;
   padding: 5px 10px;
   margin: 2px;
+  font-size: 5rem;
 }
 }
