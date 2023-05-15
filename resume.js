@@ -8,7 +8,7 @@ $(function() {
     // Create Animations
     var title = $(elem).find('h3'),
            text = $(elem).find('h2'),
-           bulltets =$(elem).find('ul'),  
+           bulltets = $(elem).find('ul'),  
            btn = $(elem).find('a');
         
     
