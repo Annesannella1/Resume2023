@@ -40,12 +40,26 @@ h1, h2, h3, h4, h4, h5, h6 {
 header {
   width: 100vw;
   min-height: 400px;
-  height: 100vh;
+  height: 200vh;
   background: #bb6569;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-align: left;
 }
+header .svg-container {
+  margin-top: 50px; 
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+
+header .svg-container:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+
 header article {
   padding-left: 8.33333%;
   padding-right: 50%;
@@ -70,19 +84,6 @@ header article h3 {
   font-size: 1rem;
   margin: 0 0 2.5rem;
   line-height: 1em; 
-
-header .svg-container {
-  margin-top: 50px; 
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 3px solid black;
-  transition: all .5s;
-}
-
-header .svg-container:hover {
-  transform: scale(1.2) rotate(360deg);
-}
 
 
 .btn 
