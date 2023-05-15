@@ -197,8 +197,8 @@ header article h3 {
 
 .section article ul.Duties li {
   border-radius: 6px;
-  display: inline-block;
-  background: burlywood;
+  display: block;
+  background: #bb6569;
   color: black;
   font-size: 2rem;
   padding: 5px 10px;
@@ -206,10 +206,8 @@ header article h3 {
   
 }
 .section article .Duties li:nth-child(odd) {
-  background: teal;
+  background: biege;
 }
-
-
 
 @media screen and (min-width: 720px) {
   
@@ -375,10 +373,10 @@ header .svg-container:hover {
   text-align: left;
 }
 
-.section article ul.duties li {
+.section article ul.Duties li {
   border-radius: 6px;
-  display: inline-block;
-  background: burlywood;
+  display: block;
+  background: #bb6569;
   color: black;
   font-size: 5rem;
   padding: 5px 10px;
@@ -386,7 +384,7 @@ header .svg-container:hover {
   
 }
 .section article .Duties li:nth-child(odd) {
-  background: teal;
+  background: beige;
 }
 
 }
