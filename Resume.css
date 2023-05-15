@@ -62,8 +62,6 @@ header article h1 {
 
 header article h2 {
   font-size: 3rem;
-  margin: 0, 0, 2.5rem;
-  line-height: 1em;
 }
 
 .svg-container {
@@ -97,7 +95,7 @@ header article h2 {
 
 
 .btn--ghost:hover {
-  background: #bb6569;
+  background: white;
   color: black;
 }
 
@@ -229,7 +227,7 @@ header article h3 {
   font-size: 5rem;
 }
 
-    .svg-container {
+.svg-container {
  /* margin-top: 50px; */
     margin-left: 50px;
   width: 400px;
@@ -241,6 +239,7 @@ header article h3 {
 .svg-container:hover {
   transform: scale(1.2) rotate(360deg);
 }
+
 .btn {
   padding: 1rem 2rem;
   display: inline-block;
@@ -253,6 +252,7 @@ header article h3 {
   color: rgba(0, 0, 0, 0.2);
   border: 1px solid #dfdfdf;
 }
+  
 .btn--ghost:hover {
   background: white;
   color: black;
