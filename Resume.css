@@ -105,10 +105,10 @@ header article h2 {
 
 .section {
   width: 100%;
-  /* max-width: 500px; to see triggers*/
+  /* max-width: 500px; to see triggers and text color*/
   min-height: 400px;
   height: 100vh;
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.2);
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
@@ -203,7 +203,7 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background: #e9e0c9;
+  background: #bb6569;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-align: left;
@@ -223,9 +223,8 @@ header article h1 {
   
 header article h2 {
   font-size: 7rem;
+  }
   
-
-
 header article h3 {
   font-size: 5rem;
 }
@@ -272,6 +271,7 @@ header article h3 {
   
 
 }
+  
 .section:before {
   position: absolute;
   left: 0;
@@ -283,8 +283,7 @@ header article h3 {
   font-size: 25.5rem;
   color: rgba(210, 160, 160, 0.25);
   
-
-}
+ }
 
 .section:nth-child(1) {
   background: #bb6569; 
