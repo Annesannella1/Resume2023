@@ -31,8 +31,8 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .flex, header, .section {
-  display: flex;
-  flex-flow: row wrap;
+  display: inline-flex;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: center;
 }
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 header {
   width: 100vw;
   min-height: 400px;
-  height: 300vh;
+  height: 50vh;
   background: #bb6569;
   color: black;
   font-weight: bold;
@@ -229,7 +229,7 @@ header {
   min-height: 400px;
   height: 100vh;
   background: #bb6569;
-  color: rgba(0, 0, 0, 0.2);
+  color: black;
   font-weight: bold;
   text-align: left;
 }
@@ -282,7 +282,7 @@ header .svg-container:hover {
 }
 .btn--ghost {
   background: transparent;
-  color: rgba(0, 0, 0, 0.2);
+  color: white;
   border: 1px solid black;
 }
   
