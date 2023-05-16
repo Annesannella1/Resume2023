@@ -76,13 +76,13 @@ header article h1 {
   line-height: 1em;
 }
 
-header article h2 {
+header article h3 {
   font-size: 3rem;
   margin: 0 0 2.5rem;
   line-height: 1em;
 }
 
-header article h3 {
+header article p {
   font-size: 1rem;
   margin: 0 0 2.5rem;
   line-height: 1em; 
@@ -182,12 +182,12 @@ header article h3 {
 .section article h3 {
   font-size: 1rem;
 }
-.section article h2 {
+.section article p {
   font-size: 1rem;
  /* margin-bottom: 2rem; */
 }
 
-.section article h1 {
+/*.section article h1 {
   font-size: 2rem;
 }
 .section article ul {
@@ -203,8 +203,8 @@ header article h3 {
   font-size: 1rem;
   padding: 5px 10px;
   margin: 2px;
-  
-}*/
+ } */
+
 
 @media screen and (min-width: 720px) {
   
