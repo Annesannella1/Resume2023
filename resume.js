@@ -1,14 +1,14 @@
 $(function() {
   
   $('[data-scrollmagic]').each(function (index, elem) {
-    console.Log(elem);
+  
     // Init ScrollMagic Controller 
     var scrollMagicController = new ScrollMagic();
-  
+ 
      
     // Create Animations
     var title = $(elem).find('h3'), text = $(elem).find('p'), btn = $(elem).find('a');
-        
+      console.log(index elem);   
     
     var tl = new TimelineMax({pause: true});    
     tl.add("start") 
