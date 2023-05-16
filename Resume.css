@@ -183,7 +183,7 @@ header article h3 {
   font-size: 1rem;
 }
 .section article h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
  /* margin-bottom: 2rem; */
 }
 
@@ -195,7 +195,7 @@ header article h3 {
   text-align: left;
 }
 
-.section article ul li {
+/*.section article ul li {
   border-radius: 2px;
   display: block;
   background: #bb6569;
@@ -204,7 +204,7 @@ header article h3 {
   padding: 5px 10px;
   margin: 2px;
   
-}
+}*/
 
 @media screen and (min-width: 720px) {
   
