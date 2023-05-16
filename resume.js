@@ -1,7 +1,8 @@
 $(function() {
   
   $('[data-scrollmagic]').each(function (index, elem) {
-    // Init ScrollMagic Controller
+    Consle. Log(index. elem);
+    // Init ScrollMagic Controller 
     var scrollMagicController = new ScrollMagic();
   
      
