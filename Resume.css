@@ -32,7 +32,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 
 .flex, header, .section {
   display: inline-flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: center;
 }
@@ -47,7 +47,7 @@ header {
   text-align: center;
 }
 header .svg-container {
-  margin-top: 20px; 
+  margin-top: 50px; 
   width: 200px;
   height: 200px;
   border-radius: 50%;
