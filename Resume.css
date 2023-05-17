@@ -31,7 +31,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .flex, header, .section {
-  display: block;
+  display: flex;
   flex-flow: row-wrap;
   align-items: center;
   justify-content: center;
@@ -129,7 +129,7 @@ header article p {
   top: 50%;
   transform: translateY(-50%);
   content: "";
-  font-size: 10rem;
+  font-size: 10.5rem;
   color: rgba(210, 160, 160, 0.25);
   
 }
@@ -182,14 +182,11 @@ header article p {
 .section article h3 {
   font-size: 1rem;
 }
+
 .section article p {
-  font-size: 1rem;
- /* margin-bottom: 2rem; */
+  font-size: .5rem;
+  margin-bottom: 2rem;
 }
-
-/*.section article h1 {
-  font-size: 1.5rem;
-
 
 
 @media screen and (min-width: 720px) {
