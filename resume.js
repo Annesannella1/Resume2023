@@ -22,6 +22,8 @@ $(function() {
       triggerElement: elem,
       offset: 0
     })
+    var triggerPosition = scene.triggerPosition();
+    console.log(triggePosition);
     .setTween(tl)
     .addTo(scrollMagicController);
 
