@@ -33,7 +33,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 .flex, header, .section {
   display: inline-block;
   flex-flow: column-wrap;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 
@@ -47,7 +47,7 @@ header {
   text-align: center;
 }
 header .svg-container {
-  margin-top: 50px; 
+  margin-top: 25px; 
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -181,6 +181,7 @@ header article p {
 }
 .section article h3 {
   font-size: 1rem;
+  margin:-bottom: 2rem;
 }
 
 .section article p {
