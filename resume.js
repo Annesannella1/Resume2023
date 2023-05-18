@@ -8,7 +8,7 @@ $(function() {
      
     // Create Animations
     var title = $(elem).find('h3'), text=$(elem).find('p'), btn = $(elem).find('a');
-     // console.log(index elem);   
+     console.log(title);   
     
     var tl = new TimelineMax({pause: true});    
     tl.add("start") 
@@ -22,12 +22,14 @@ $(function() {
       triggerElement: elem,
       offset: 0
     })
-    var triggerPosition = scene.triggerPosition();
-    console.log(triggePosition);
+    
     .setTween(tl)
     .addTo(scrollMagicController);
 
     // Add debug indicators fixed on right side
      scene.addIndicators(); 
+     var triggerPosition = scene.triggerPosition();
+       console.log(triggerposition);
   });
+  
 });
