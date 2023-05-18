@@ -8,7 +8,7 @@ $(function() {
      
     // Create Animations
     var title = $(elem).find('h3'), text=$(elem).find('p'), btn = $(elem).find('a');
-     console.log(title);   
+     console.log(title)  
     
     var tl = new TimelineMax({pause: true});    
     tl.add("start") 
@@ -29,7 +29,7 @@ $(function() {
     // Add debug indicators fixed on right side
      scene.addIndicators(); 
      var triggerPosition = scene.triggerPosition();
-       console.log(triggerposition);
+       console.log(triggerposition)
   });
   
 });
