@@ -129,7 +129,7 @@ header article p {
   top: 50%;
   transform: translateY(-50%);
   content: "";
-  font-size: 10.5rem;
+  font-size: 12rem;
   color: rgba(210, 160, 160, 0.25);
   
 }
