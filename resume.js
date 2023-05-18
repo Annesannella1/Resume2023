@@ -21,6 +21,9 @@ $(function() {
     var scene = new ScrollScene({
       triggerElement: elem,
       offset: 0
+      
+    var triggerPosition = scene.triggerPosition();
+      console.log("trigger position", triggerposition)
     })
     
     .setTween(tl)
@@ -28,8 +31,7 @@ $(function() {
 
     // Add debug indicators fixed on right side
      scene.addIndicators(); 
-     var triggerPosition = scene.triggerPosition();
-       console.log("trigger position", triggerposition)
+    
   });
   
 });
