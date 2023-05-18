@@ -31,7 +31,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 }
 
 .flex, header, .section {
-  display: flex;
+  display: inline-block;
   flex-flow: column-wrap;
   align-items: center;
   justify-content: center;
