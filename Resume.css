@@ -32,7 +32,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 
 .flex, header, .section {
   display: inline-block;
-  flex-flow: column-wrap;
+  flex-direction: column;
   align-items: left;
   justify-content: center;
 }
