@@ -7,7 +7,7 @@ $(function() {
  
      
     // Create Animations
-    var title = $(elem).find('h3'), text=$(elem).find('p'), btn = $(elem).find('a');
+    var title = $(elem).find('h2'), title2=$(elem).find('h3'), text=$(elem).find('p'), btn = $(elem).find('a');
      console.log("this is the title", title)  
     
     var tl = new TimelineMax({pause: true});    
